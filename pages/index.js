@@ -4,10 +4,13 @@ import HomeFeatures from "../src/components/Home/HomeFeatures";
 import HomeHero from "../src/components/Home/HomeHero";
 import HomeIPage from "../src/components/Home/HomeIPage";
 import HomeSelect from "../src/components/Home/HomeSelect";
+import CategoriesListCategories2 from "../src/components/Categories Listing/CategoriesListCategories2";
+
 const index = () => {
   return (
     <div id="page" className="page-wrapper demo">
-      <HomeHero />
+      {/* <HomeHero /> */}
+      <CategoriesListCategories2 />
       <HomeAbout1 />
       <HomeSelect />
       <HomeFeatures />
